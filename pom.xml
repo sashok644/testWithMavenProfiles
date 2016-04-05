@@ -63,11 +63,28 @@
                 <test.excludeCategories></test.excludeCategories>
             </properties>
         </profile>
+
         <profile>
-            <id>acceptance</id>
+            <id>buggy </id>
+            <properties>
+                <test.includeCategories>categories.Buggy</test.includeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>all</id>
             <properties>
                 <test.includeCategories></test.includeCategories>
-                <test.excludeCategories>categories.Smoke</test.excludeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>fullAcceptance</id>
+            <properties>
+                <test.includeCategories></test.includeCategories>
+                <test.excludeCategories>categories.Buggy</test.excludeCategories>
             </properties>
         </profile>
     </profiles>
