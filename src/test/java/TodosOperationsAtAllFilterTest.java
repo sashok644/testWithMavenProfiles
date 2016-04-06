@@ -1,5 +1,3 @@
-package features;
-
 import categories.Buggy;
 import categories.Smoke;
 import org.junit.Test;

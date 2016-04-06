@@ -1,5 +1,3 @@
-package features;
-
 import com.codeborne.selenide.Configuration;
 
 /**
